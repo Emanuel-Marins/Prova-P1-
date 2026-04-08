@@ -1,6 +1,7 @@
 from pydantic import BaseModel
 
-class User(BaseModel):
-    nome: str
-    email: str
-    idade: int
+class Evento(BaseModel):
+    titulo: str
+    descricao: str
+    data: str
+    local: str
